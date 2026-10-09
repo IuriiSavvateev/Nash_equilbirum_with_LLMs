@@ -1,0 +1,85 @@
+stakeholder,issue,option,participant_score,automatic_minimum,automatic_p05,automatic_median,automatic_mean,automatic_p95,automatic_maximum,inside_central_90_interval,inside_full_simulated_range
+Consumers,A,A1,0,0,1.0,17.0,21.931,58.0,98,False,True
+Consumers,A,A2,20,0,1.0,17.0,21.973,59.0,97,True,True
+Consumers,A,A3,30,0,1.0,17.0,21.738,59.0,97,True,True
+Consumers,A,A4,20,0,1.0,17.0,21.998,59.0,98,True,True
+Consumers,B,B1,20,0,0.0,8.0,13.334,45.0,94,True,True
+Consumers,B,B2,15,0,0.0,8.0,13.296,45.0,95,True,True
+Consumers,B,B3,10,0,0.0,8.0,13.396,45.0,95,True,True
+Consumers,B,B4,0,0,0.0,8.0,13.409,45.0,95,True,True
+Consumers,B,B5,5,0,0.0,8.0,13.326,45.0,97,True,True
+Consumers,C,C1,30,0,0.0,5.0,7.313,24.0,46,False,True
+Consumers,C,C2,10,1,1.0,8.0,10.46,28.0,49,True,True
+Consumers,C,C3,0,0,0.0,3.0,4.602,16.0,42,True,True
+Consumers,C,C4,20,0,0.0,5.0,7.323,24.0,49,True,True
+Consumers,C,C5,15,0,0.0,5.0,7.384,24.0,49,True,True
+Consumers,D,D1,10,0,0.0,0.0,5.883,30.0,88,True,True
+Consumers,D,D2,5,0,0.0,0.0,5.915,30.05,88,True,True
+Consumers,D,D3,5,0,0.0,0.0,5.921,31.0,91,True,True
+Consumers,D,D4,5,0,0.0,0.0,5.913,31.0,93,True,True
+Consumers,E,E1,10,0,0.0,0.0,6.151,32.0,90,True,True
+Consumers,E,E2,5,0,0.0,0.0,6.14,32.0,87,True,True
+Consumers,E,E3,0,0,0.0,0.0,6.182,32.0,91,True,True
+Food industry,A,A1,30,0,0.0,5.0,7.84,26.0,77,False,True
+Food industry,A,A2,30,1,2.0,15.0,19.125,50.0,96,True,True
+Food industry,A,A3,10,0,0.0,7.0,11.359,38.0,89,True,True
+Food industry,A,A4,0,0,0.0,5.0,7.86,26.0,76,True,True
+Food industry,B,B1,5,0,0.0,6.0,10.303,35.0,88,True,True
+Food industry,B,B2,5,0,0.0,6.0,10.344,35.0,84,True,True
+Food industry,B,B3,10,0,0.0,6.0,10.394,35.0,87,True,True
+Food industry,B,B4,10,0,0.0,6.0,10.338,35.0,83,True,True
+Food industry,B,B5,0,0,0.0,6.0,10.338,35.0,89,True,True
+Food industry,C,C1,0,0,0.0,4.0,6.984,24.0,76,True,True
+Food industry,C,C2,30,0,0.0,7.0,11.09,36.0,89,True,True
+Food industry,C,C3,30,0,0.0,7.0,11.166,36.0,94,True,True
+Food industry,C,C4,30,1,1.0,12.0,15.621,44.0,88,True,True
+Food industry,C,C5,10,0,0.0,7.0,11.034,36.0,89,True,True
+Food industry,D,D1,10,0,0.0,6.0,10.715,37.0,86,True,True
+Food industry,D,D2,10,0,0.0,6.0,10.62,36.0,83,True,True
+Food industry,D,D3,5,0,0.0,6.0,10.551,36.0,90,True,True
+Food industry,D,D4,0,0,0.0,6.0,10.588,37.0,83,True,True
+Food industry,E,E1,20,0,0.0,7.0,11.275,39.0,90,True,True
+Food industry,E,E2,0,0,0.0,7.0,11.367,39.0,84,True,True
+Food industry,E,E3,0,0,0.0,6.0,11.163,39.0,85,True,True
+Food Safety Authorities,A,A1,0,0,1.0,9.0,11.444,32.0,78,False,True
+Food Safety Authorities,A,A2,0,0,1.0,12.0,16.492,45.0,88,False,True
+Food Safety Authorities,A,A3,20,1,7.0,25.0,27.611,57.0,90,True,True
+Food Safety Authorities,A,A4,40,0,1.0,9.0,11.318,32.0,73,False,True
+Food Safety Authorities,B,B1,0,0,0.0,5.0,7.717,25.0,70,True,True
+Food Safety Authorities,B,B2,20,0,0.0,5.0,7.725,26.0,79,True,True
+Food Safety Authorities,B,B3,5,1,2.0,14.0,17.832,47.0,89,True,True
+Food Safety Authorities,B,B4,0,0,0.0,7.0,11.018,36.0,87,True,True
+Food Safety Authorities,B,B5,0,0,0.0,7.0,11.031,36.0,92,True,True
+Food Safety Authorities,C,C1,10,0,0.0,2.0,3.487,12.0,36,True,True
+Food Safety Authorities,C,C2,10,0,0.0,4.0,5.752,19.0,44,True,True
+Food Safety Authorities,C,C3,0,0,0.0,4.0,5.723,19.0,44,True,True
+Food Safety Authorities,C,C4,5,1,1.0,6.0,8.193,23.0,43,True,True
+Food Safety Authorities,C,C5,10,0,0.0,4.0,5.741,19.0,45,True,True
+Food Safety Authorities,D,D1,15,0,0.0,6.0,10.46,35.0,83,True,True
+Food Safety Authorities,D,D2,20,0,0.0,6.0,10.446,36.0,88,True,True
+Food Safety Authorities,D,D3,5,0,0.0,6.0,10.36,35.0,93,True,True
+Food Safety Authorities,D,D4,0,0,0.0,6.0,10.518,36.0,86,True,True
+Food Safety Authorities,E,E1,0,0,0.0,6.0,10.964,38.0,84,True,True
+Food Safety Authorities,E,E2,5,0,0.0,6.0,11.006,38.0,85,True,True
+Food Safety Authorities,E,E3,10,0,0.0,6.0,10.894,38.0,88,True,True
+Environmental NGOs,A,A1,20,0,0.0,3.0,4.466,15.0,31,False,True
+Environmental NGOs,A,A2,10,0,0.0,3.0,4.471,15.0,30,True,True
+Environmental NGOs,A,A3,5,1,1.0,5.0,6.585,17.0,31,True,True
+Environmental NGOs,A,A4,0,0,0.0,2.0,2.663,9.0,27,True,True
+Environmental NGOs,B,B1,5,0,1.0,12.0,16.279,46.0,90,True,True
+Environmental NGOs,B,B2,5,0,1.0,12.0,16.076,45.0,93,True,True
+Environmental NGOs,B,B3,15,0,1.0,12.0,15.888,45.0,93,True,True
+Environmental NGOs,B,B4,15,0,1.0,12.0,16.083,45.0,89,True,True
+Environmental NGOs,B,B5,40,0,1.0,12.0,16.096,46.0,95,True,True
+Environmental NGOs,C,C1,0,0,1.0,7.0,10.124,30.0,75,False,True
+Environmental NGOs,C,C2,0,0,1.0,13.0,16.663,47.0,92,False,True
+Environmental NGOs,C,C3,10,0,1.0,12.0,16.318,45.0,94,True,True
+Environmental NGOs,C,C4,15,1,4.0,19.0,22.715,54.0,91,True,True
+Environmental NGOs,C,C5,10,0,1.0,12.0,16.453,46.0,93,True,True
+Environmental NGOs,D,D1,0,0,0.0,0.0,5.147,27.0,79,True,True
+Environmental NGOs,D,D2,0,0,0.0,0.0,5.13,27.0,83,True,True
+Environmental NGOs,D,D3,0,0,0.0,0.0,5.027,26.0,89,True,True
+Environmental NGOs,D,D4,0,0,0.0,0.0,5.074,26.0,86,True,True
+Environmental NGOs,E,E1,0,0,0.0,7.0,12.616,43.0,90,True,True
+Environmental NGOs,E,E2,25,0,0.0,7.0,12.599,43.0,95,True,True
+Environmental NGOs,E,E3,15,0,0.0,7.0,12.317,42.0,93,True,True

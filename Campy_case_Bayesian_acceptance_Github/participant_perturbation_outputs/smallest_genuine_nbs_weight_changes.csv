@@ -1,0 +1,21 @@
+stakeholder,issue,original_weight,adapted_weight,change,profile
+Consumers,A,30,30,0,participant_smallest_genuine_nbs_integer
+Consumers,B,20,19,-1,participant_smallest_genuine_nbs_integer
+Consumers,C,30,30,0,participant_smallest_genuine_nbs_integer
+Consumers,D,10,10,0,participant_smallest_genuine_nbs_integer
+Consumers,E,10,11,1,participant_smallest_genuine_nbs_integer
+Food industry,A,30,27,-3,participant_smallest_genuine_nbs_integer
+Food industry,B,10,7,-3,participant_smallest_genuine_nbs_integer
+Food industry,C,30,32,2,participant_smallest_genuine_nbs_integer
+Food industry,D,10,12,2,participant_smallest_genuine_nbs_integer
+Food industry,E,20,22,2,participant_smallest_genuine_nbs_integer
+Food Safety Authorities,A,40,44,4,participant_smallest_genuine_nbs_integer
+Food Safety Authorities,B,20,17,-3,participant_smallest_genuine_nbs_integer
+Food Safety Authorities,C,10,11,1,participant_smallest_genuine_nbs_integer
+Food Safety Authorities,D,20,21,1,participant_smallest_genuine_nbs_integer
+Food Safety Authorities,E,10,7,-3,participant_smallest_genuine_nbs_integer
+Environmental NGOs,A,20,14,-6,participant_smallest_genuine_nbs_integer
+Environmental NGOs,B,40,45,5,participant_smallest_genuine_nbs_integer
+Environmental NGOs,C,15,21,6,participant_smallest_genuine_nbs_integer
+Environmental NGOs,D,0,0,0,participant_smallest_genuine_nbs_integer
+Environmental NGOs,E,25,20,-5,participant_smallest_genuine_nbs_integer

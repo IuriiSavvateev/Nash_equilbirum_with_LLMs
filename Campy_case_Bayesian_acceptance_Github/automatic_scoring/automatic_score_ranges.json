@@ -1,0 +1,1115 @@
+{
+  "schema": "automatic_score_ranges_v1",
+  "created_utc": "2026-10-06T22:25:45.808479+00:00",
+  "interpretation": "Empirical score ranges under the maximum-entropy integer utility distribution conditioned only on public ordinal constraints. These are model-based uncertainty intervals, not population confidence intervals.",
+  "prior_file": "public_priors_Campylobacter.json",
+  "prior_sha256": "8b9ea2fe8c310e90e229932aa4bc2c15c4c96d3e1c630c2493b010dd8edb4ab1",
+  "human_score_tables_used": false,
+  "monte_carlo_samples_per_stakeholder": 20000,
+  "integer_total_points": 100,
+  "common_acceptance_threshold": 65.0,
+  "quantization_diagnostics": {
+    "Consumers": {
+      "attempted_continuous_draws": 23298,
+      "accepted_integer_draws": 20000,
+      "acceptance_fraction": 0.858443
+    },
+    "Food industry": {
+      "attempted_continuous_draws": 24030,
+      "accepted_integer_draws": 20000,
+      "acceptance_fraction": 0.832293
+    },
+    "Food Safety Authorities": {
+      "attempted_continuous_draws": 27692,
+      "accepted_integer_draws": 20000,
+      "acceptance_fraction": 0.72223
+    },
+    "Environmental NGOs": {
+      "attempted_continuous_draws": 25619,
+      "accepted_integer_draws": 20000,
+      "acceptance_fraction": 0.780671
+    }
+  },
+  "stakeholders": {
+    "Consumers": {
+      "stakeholder": "Consumers",
+      "public_constraints": {
+        "relevant_issues": [
+          "A",
+          "B",
+          "C"
+        ],
+        "issue_relations": [
+          {
+            "more_important": "A",
+            "less_important": "C",
+            "basis": "explicit",
+            "evidence_quote": "the health benefits of reducing Campylobacter-related illnesses significantly outweigh these costs",
+            "explanation": "The stakeholder directly states that public-health benefits from reducing Campylobacter illness outweigh economic costs, supporting greater importance for stricter safety criteria than cost concerns, while still treating costs as relevant."
+          }
+        ],
+        "option_relations": [
+          {
+            "preferred": "C2",
+            "less_preferred": "C3",
+            "basis": "semantic_mapping",
+            "evidence_quote": "subsidies to offset potential economic burdens, ensuring equitable access to safer products",
+            "explanation": "The stakeholder supports subsidies to offset burdens and ensure access, which maps to targeted public co-funding. This conflicts with regulated pass-through to consumers, especially given the stakeholder's repeated opposition to price increases limiting access."
+          }
+        ],
+        "uncertainties": [
+          "The discussion supports stricter microbiological criteria but does not clearly identify which A option is preferred among a lenient phased FSC, a moderate risk-based FSC, or a strict immediate-enforcement FSC.",
+          "The stakeholder endorses consumer education, transparency, and labeling, but does not clearly rank B4 against processing-focused, balanced, or environment-focused control strategies.",
+          "Beyond support for subsidies and opposition to consumer price increases, the discussion does not clearly rank C1, C4, or C5 relative to C2.",
+          "No clear preference evidence is given for implementation scope under issue D or environmental-foodprint intervention under issue E."
+        ]
+      },
+      "issue_weights": {
+        "A": {
+          "minimum": 2,
+          "p05": 11.0,
+          "median": 38.0,
+          "mean": 39.748,
+          "p95": 75.0,
+          "maximum": 98
+        },
+        "B": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 20.0,
+          "mean": 25.057,
+          "p95": 64.0,
+          "maximum": 97
+        },
+        "C": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 12.0,
+          "mean": 13.925,
+          "p95": 34.0,
+          "maximum": 49
+        },
+        "D": {
+          "minimum": 0,
+          "p05": 0.0,
+          "median": 0.0,
+          "mean": 10.678,
+          "p95": 47.0,
+          "maximum": 93
+        },
+        "E": {
+          "minimum": 0,
+          "p05": 0.0,
+          "median": 0.0,
+          "mean": 10.592,
+          "p95": 47.0,
+          "maximum": 91
+        }
+      },
+      "option_scores": {
+        "A": {
+          "A1": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 17.0,
+            "mean": 21.931,
+            "p95": 58.0,
+            "maximum": 98
+          },
+          "A2": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 17.0,
+            "mean": 21.973,
+            "p95": 59.0,
+            "maximum": 97
+          },
+          "A3": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 17.0,
+            "mean": 21.738,
+            "p95": 59.0,
+            "maximum": 97
+          },
+          "A4": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 17.0,
+            "mean": 21.998,
+            "p95": 59.0,
+            "maximum": 98
+          }
+        },
+        "B": {
+          "B1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 8.0,
+            "mean": 13.334,
+            "p95": 45.0,
+            "maximum": 94
+          },
+          "B2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 8.0,
+            "mean": 13.296,
+            "p95": 45.0,
+            "maximum": 95
+          },
+          "B3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 8.0,
+            "mean": 13.396,
+            "p95": 45.0,
+            "maximum": 95
+          },
+          "B4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 8.0,
+            "mean": 13.409,
+            "p95": 45.0,
+            "maximum": 95
+          },
+          "B5": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 8.0,
+            "mean": 13.326,
+            "p95": 45.0,
+            "maximum": 97
+          }
+        },
+        "C": {
+          "C1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 5.0,
+            "mean": 7.313,
+            "p95": 24.0,
+            "maximum": 46
+          },
+          "C2": {
+            "minimum": 1,
+            "p05": 1.0,
+            "median": 8.0,
+            "mean": 10.46,
+            "p95": 28.0,
+            "maximum": 49
+          },
+          "C3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 3.0,
+            "mean": 4.602,
+            "p95": 16.0,
+            "maximum": 42
+          },
+          "C4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 5.0,
+            "mean": 7.323,
+            "p95": 24.0,
+            "maximum": 49
+          },
+          "C5": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 5.0,
+            "mean": 7.384,
+            "p95": 24.0,
+            "maximum": 49
+          }
+        },
+        "D": {
+          "D1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 5.883,
+            "p95": 30.0,
+            "maximum": 88
+          },
+          "D2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 5.915,
+            "p95": 30.05,
+            "maximum": 88
+          },
+          "D3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 5.921,
+            "p95": 31.0,
+            "maximum": 91
+          },
+          "D4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 5.913,
+            "p95": 31.0,
+            "maximum": 93
+          }
+        },
+        "E": {
+          "E1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 6.151,
+            "p95": 32.0,
+            "maximum": 90
+          },
+          "E2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 6.14,
+            "p95": 32.0,
+            "maximum": 87
+          },
+          "E3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 6.182,
+            "p95": 32.0,
+            "maximum": 91
+          }
+        }
+      }
+    },
+    "Food industry": {
+      "stakeholder": "Food industry",
+      "public_constraints": {
+        "relevant_issues": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "issue_relations": [],
+        "option_relations": [
+          {
+            "preferred": "A2",
+            "less_preferred": "A1",
+            "basis": "semantic_mapping",
+            "evidence_quote": "Implement a phased approach to stricter microbiological criteria",
+            "explanation": "A phased move toward stricter criteria maps more closely to A2 than to maintaining only the existing PHC/status quo in A1."
+          },
+          {
+            "preferred": "A2",
+            "less_preferred": "A4",
+            "basis": "semantic_mapping",
+            "evidence_quote": "Implement a phased approach to stricter microbiological criteria",
+            "explanation": "The stakeholder favors a phased approach, while also warning against batch withdrawals and excessive waste; this maps more closely to A2 than to immediate strict FSC enforcement in A4."
+          },
+          {
+            "preferred": "C4",
+            "less_preferred": "C1",
+            "basis": "semantic_mapping",
+            "evidence_quote": "Implement strategies to minimize food waste",
+            "explanation": "The stakeholder supports active waste-minimization measures, which maps to C4, and rejects disproportionate waste/economic burdens, which conflicts with full producer liability and standard disposal under C1."
+          }
+        ],
+        "uncertainties": [
+          "The messages stress balancing food safety, economic viability, and food waste, but do not clearly rank these issues by importance.",
+          "The stakeholder calls for 'adequate support for adaptation,' but does not specify whether this should be public co-funding, retailer co-investment, or another support mechanism; therefore C2 or C5 cannot be ordered confidently.",
+          "The stakeholder supports farm and processing-level source interventions, but the catalogue lacks an exact option for that combination; no clear B-option ordering is justified.",
+          "The stakeholder refers to risk assessment and a nuanced approach, but does not clearly choose between a uniform EU rule and a tailored/flexible implementation option in D.",
+          "The stakeholder mentions sustainability, waste reduction, and resource efficiency, but does not state a preference among the CO2-related intervention options in E."
+        ]
+      },
+      "issue_weights": {
+        "A": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 17.0,
+          "mean": 21.053,
+          "p95": 53.0,
+          "maximum": 96
+        },
+        "B": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 15.0,
+          "mean": 19.416,
+          "p95": 51.0,
+          "maximum": 89
+        },
+        "C": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 17.0,
+          "mean": 20.932,
+          "p95": 53.0,
+          "maximum": 94
+        },
+        "D": {
+          "minimum": 1,
+          "p05": 1.0,
+          "median": 15.0,
+          "mean": 19.236,
+          "p95": 51.0,
+          "maximum": 90
+        },
+        "E": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 15.0,
+          "mean": 19.363,
+          "p95": 51.0,
+          "maximum": 90
+        }
+      },
+      "option_scores": {
+        "A": {
+          "A1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 5.0,
+            "mean": 7.84,
+            "p95": 26.0,
+            "maximum": 77
+          },
+          "A2": {
+            "minimum": 1,
+            "p05": 2.0,
+            "median": 15.0,
+            "mean": 19.125,
+            "p95": 50.0,
+            "maximum": 96
+          },
+          "A3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 11.359,
+            "p95": 38.0,
+            "maximum": 89
+          },
+          "A4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 5.0,
+            "mean": 7.86,
+            "p95": 26.0,
+            "maximum": 76
+          }
+        },
+        "B": {
+          "B1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.303,
+            "p95": 35.0,
+            "maximum": 88
+          },
+          "B2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.344,
+            "p95": 35.0,
+            "maximum": 84
+          },
+          "B3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.394,
+            "p95": 35.0,
+            "maximum": 87
+          },
+          "B4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.338,
+            "p95": 35.0,
+            "maximum": 83
+          },
+          "B5": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.338,
+            "p95": 35.0,
+            "maximum": 89
+          }
+        },
+        "C": {
+          "C1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 4.0,
+            "mean": 6.984,
+            "p95": 24.0,
+            "maximum": 76
+          },
+          "C2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 11.09,
+            "p95": 36.0,
+            "maximum": 89
+          },
+          "C3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 11.166,
+            "p95": 36.0,
+            "maximum": 94
+          },
+          "C4": {
+            "minimum": 1,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 15.621,
+            "p95": 44.0,
+            "maximum": 88
+          },
+          "C5": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 11.034,
+            "p95": 36.0,
+            "maximum": 89
+          }
+        },
+        "D": {
+          "D1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.715,
+            "p95": 37.0,
+            "maximum": 86
+          },
+          "D2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.62,
+            "p95": 36.0,
+            "maximum": 83
+          },
+          "D3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.551,
+            "p95": 36.0,
+            "maximum": 90
+          },
+          "D4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.588,
+            "p95": 37.0,
+            "maximum": 83
+          }
+        },
+        "E": {
+          "E1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 11.275,
+            "p95": 39.0,
+            "maximum": 90
+          },
+          "E2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 11.367,
+            "p95": 39.0,
+            "maximum": 84
+          },
+          "E3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 11.163,
+            "p95": 39.0,
+            "maximum": 85
+          }
+        }
+      }
+    },
+    "Food Safety Authorities": {
+      "stakeholder": "Food Safety Authorities",
+      "public_constraints": {
+        "relevant_issues": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "issue_relations": [
+          {
+            "more_important": "A",
+            "less_important": "C",
+            "basis": "explicit",
+            "evidence_quote": "the overarching priority is public health ... outweighing the economic costs associated with stricter controls",
+            "explanation": "The stakeholder directly states that public-health protection takes priority over economic-cost concerns, mapping public-health-driven stricter criteria to issue A and cost/waste burdens to issue C."
+          }
+        ],
+        "option_relations": [
+          {
+            "preferred": "A3",
+            "less_preferred": "A1",
+            "basis": "semantic_mapping",
+            "evidence_quote": "Stricter microbiological criteria are essential",
+            "explanation": "A3 introduces a risk-based FSC aligned with public-health targets, whereas A1 maintains the existing PHC only with no FSC. The stakeholder’s endorsement of stricter criteria supports A3 over the status quo."
+          },
+          {
+            "preferred": "A3",
+            "less_preferred": "A4",
+            "basis": "semantic_mapping",
+            "evidence_quote": "ensuring proportionality between public health benefits and economic implications",
+            "explanation": "The stakeholder supports stricter criteria but stresses proportionality, economic viability, and waste mitigation. This maps more clearly to a risk-based moderate FSC with mitigation measures than to immediate strict enforcement focused solely on maximum protection."
+          },
+          {
+            "preferred": "B3",
+            "less_preferred": "B1",
+            "basis": "semantic_mapping",
+            "evidence_quote": "throughout the poultry chain, including farm-level biosecurity measures",
+            "explanation": "B3 distributes controls across the chain, including farm-level action. B1 focuses on processing and retail without primarily focusing on on-farm interventions, which is less consistent with the stakeholder’s whole-chain/source-based emphasis."
+          },
+          {
+            "preferred": "B3",
+            "less_preferred": "B2",
+            "basis": "semantic_mapping",
+            "evidence_quote": "comprehensive risk management strategies that encompass the entire poultry production chain",
+            "explanation": "The stakeholder prefers comprehensive chain-wide risk management rather than making slaughterhouse and processing controls the main focus, supporting B3 over B2."
+          },
+          {
+            "preferred": "C4",
+            "less_preferred": "C1",
+            "basis": "semantic_mapping",
+            "evidence_quote": "dynamic shelf-life management to reduce unnecessary food waste",
+            "explanation": "The stakeholder specifically endorses waste-reduction tools such as dynamic shelf-life management and rejects disproportionate burdens. This maps better to C4’s waste-minimization toolkit than to C1’s full producer liability and standard disposal approach."
+          }
+        ],
+        "uncertainties": [
+          "The discussion supports stricter criteria, but it does not clearly distinguish between a phased lenient FSC and a moderate risk-based FSC beyond the general preference for balanced, evidence-based stringency.",
+          "The stakeholder emphasizes source-based and whole-chain controls, but the catalogue does not contain a purely farm/source-first option; B3 is only an approximate mapping.",
+          "The stakeholder discusses economic viability and industry adaptation but does not specify subsidies, retailer co-investment, cost pass-through, or a precise cost-sharing model among C2, C3, and C5.",
+          "The stakeholder uses risk-based language, but does not clearly state whether implementation should be a uniform EU rule, a harmonized baseline with flexibility, or tailored regional/processor-specific application.",
+          "Environmental concerns are relevant, but the stakeholder does not specify whether CO2-equivalent goals should be pursued through non-binding guidelines or legally binding text."
+        ]
+      },
+      "issue_weights": {
+        "A": {
+          "minimum": 2,
+          "p05": 8.0,
+          "median": 29.0,
+          "mean": 30.508,
+          "p95": 59.0,
+          "maximum": 90
+        },
+        "B": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 17.0,
+          "mean": 20.771,
+          "p95": 52.0,
+          "maximum": 92
+        },
+        "C": {
+          "minimum": 1,
+          "p05": 1.0,
+          "median": 9.0,
+          "mean": 10.861,
+          "p95": 27.0,
+          "maximum": 45
+        },
+        "D": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 15.0,
+          "mean": 19.051,
+          "p95": 50.0,
+          "maximum": 93
+        },
+        "E": {
+          "minimum": 1,
+          "p05": 1.0,
+          "median": 15.0,
+          "mean": 18.809,
+          "p95": 50.0,
+          "maximum": 88
+        }
+      },
+      "option_scores": {
+        "A": {
+          "A1": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 9.0,
+            "mean": 11.444,
+            "p95": 32.0,
+            "maximum": 78
+          },
+          "A2": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 16.492,
+            "p95": 45.0,
+            "maximum": 88
+          },
+          "A3": {
+            "minimum": 1,
+            "p05": 7.0,
+            "median": 25.0,
+            "mean": 27.611,
+            "p95": 57.0,
+            "maximum": 90
+          },
+          "A4": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 9.0,
+            "mean": 11.318,
+            "p95": 32.0,
+            "maximum": 73
+          }
+        },
+        "B": {
+          "B1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 5.0,
+            "mean": 7.717,
+            "p95": 25.0,
+            "maximum": 70
+          },
+          "B2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 5.0,
+            "mean": 7.725,
+            "p95": 26.0,
+            "maximum": 79
+          },
+          "B3": {
+            "minimum": 1,
+            "p05": 2.0,
+            "median": 14.0,
+            "mean": 17.832,
+            "p95": 47.0,
+            "maximum": 89
+          },
+          "B4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 11.018,
+            "p95": 36.0,
+            "maximum": 87
+          },
+          "B5": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 11.031,
+            "p95": 36.0,
+            "maximum": 92
+          }
+        },
+        "C": {
+          "C1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 2.0,
+            "mean": 3.487,
+            "p95": 12.0,
+            "maximum": 36
+          },
+          "C2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 4.0,
+            "mean": 5.752,
+            "p95": 19.0,
+            "maximum": 44
+          },
+          "C3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 4.0,
+            "mean": 5.723,
+            "p95": 19.0,
+            "maximum": 44
+          },
+          "C4": {
+            "minimum": 1,
+            "p05": 1.0,
+            "median": 6.0,
+            "mean": 8.193,
+            "p95": 23.0,
+            "maximum": 43
+          },
+          "C5": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 4.0,
+            "mean": 5.741,
+            "p95": 19.0,
+            "maximum": 45
+          }
+        },
+        "D": {
+          "D1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.46,
+            "p95": 35.0,
+            "maximum": 83
+          },
+          "D2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.446,
+            "p95": 36.0,
+            "maximum": 88
+          },
+          "D3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.36,
+            "p95": 35.0,
+            "maximum": 93
+          },
+          "D4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.518,
+            "p95": 36.0,
+            "maximum": 86
+          }
+        },
+        "E": {
+          "E1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.964,
+            "p95": 38.0,
+            "maximum": 84
+          },
+          "E2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 11.006,
+            "p95": 38.0,
+            "maximum": 85
+          },
+          "E3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 6.0,
+            "mean": 10.894,
+            "p95": 38.0,
+            "maximum": 88
+          }
+        }
+      }
+    },
+    "Environmental NGOs": {
+      "stakeholder": "Environmental NGOs",
+      "public_constraints": {
+        "relevant_issues": [
+          "A",
+          "B",
+          "C",
+          "E"
+        ],
+        "issue_relations": [
+          {
+            "more_important": "B",
+            "less_important": "A",
+            "basis": "explicit",
+            "evidence_quote": "focus on reducing contamination at its source ... rather than merely tightening end-product standards",
+            "explanation": "The stakeholder explicitly prioritizes source-based contamination control over simply increasing end-product criterion stringency."
+          },
+          {
+            "more_important": "C",
+            "less_important": "A",
+            "basis": "explicit",
+            "evidence_quote": "do not inadvertently increase food waste",
+            "explanation": "The stakeholder treats avoiding food-waste impacts as a non-negotiable constraint on stricter microbiological criteria."
+          }
+        ],
+        "option_relations": [
+          {
+            "preferred": "A3",
+            "less_preferred": "A4",
+            "basis": "semantic_mapping",
+            "evidence_quote": "based on sound risk assessments and should not inadvertently increase food waste",
+            "explanation": "This maps more closely to a risk-based FSC with waste mitigation than to a strict low-limit FSC with immediate withdrawal/recall likely to increase waste."
+          },
+          {
+            "preferred": "C4",
+            "less_preferred": "C1",
+            "basis": "semantic_mapping",
+            "evidence_quote": "valorize rejected meat through safe reprocessing and alternative uses",
+            "explanation": "The stakeholder endorses waste-minimization and valorization of rejected meat, which matches C4 and conflicts with C1’s standard disposal route."
+          }
+        ],
+        "uncertainties": [
+          "The messages support stricter criteria in general, but do not clearly distinguish between A2 and A3 or specify an exact FSC limit.",
+          "The stakeholder emphasizes source-based and environmental interventions, but the discussion does not clearly order B5 against B3 or other supply-chain focus options.",
+          "The stakeholder mentions sound risk assessment, but does not clearly state a preference among D1–D4 on EU-wide uniformity versus tailored implementation.",
+          "The stakeholder discusses environmental sustainability, but does not mention CO2-equivalent targets or clearly choose among E1, E2, and E3.",
+          "No clear qualitative preference is stated about public co-funding, producer liability, retailer co-investment, or cost pass-through within issue C beyond waste minimization."
+        ]
+      },
+      "issue_weights": {
+        "A": {
+          "minimum": 1,
+          "p05": 1.0,
+          "median": 7.0,
+          "mean": 8.284,
+          "p95": 20.0,
+          "maximum": 31
+        },
+        "B": {
+          "minimum": 2,
+          "p05": 8.0,
+          "median": 27.0,
+          "mean": 30.124,
+          "p95": 62.0,
+          "maximum": 95
+        },
+        "C": {
+          "minimum": 2,
+          "p05": 8.0,
+          "median": 28.0,
+          "mean": 30.852,
+          "p95": 63.0,
+          "maximum": 94
+        },
+        "D": {
+          "minimum": 0,
+          "p05": 0.0,
+          "median": 0.0,
+          "mean": 9.269,
+          "p95": 41.0,
+          "maximum": 89
+        },
+        "E": {
+          "minimum": 1,
+          "p05": 2.0,
+          "median": 17.0,
+          "mean": 21.471,
+          "p95": 56.0,
+          "maximum": 95
+        }
+      },
+      "option_scores": {
+        "A": {
+          "A1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 3.0,
+            "mean": 4.466,
+            "p95": 15.0,
+            "maximum": 31
+          },
+          "A2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 3.0,
+            "mean": 4.471,
+            "p95": 15.0,
+            "maximum": 30
+          },
+          "A3": {
+            "minimum": 1,
+            "p05": 1.0,
+            "median": 5.0,
+            "mean": 6.585,
+            "p95": 17.0,
+            "maximum": 31
+          },
+          "A4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 2.0,
+            "mean": 2.663,
+            "p95": 9.0,
+            "maximum": 27
+          }
+        },
+        "B": {
+          "B1": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 16.279,
+            "p95": 46.0,
+            "maximum": 90
+          },
+          "B2": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 16.076,
+            "p95": 45.0,
+            "maximum": 93
+          },
+          "B3": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 15.888,
+            "p95": 45.0,
+            "maximum": 93
+          },
+          "B4": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 16.083,
+            "p95": 45.0,
+            "maximum": 89
+          },
+          "B5": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 16.096,
+            "p95": 46.0,
+            "maximum": 95
+          }
+        },
+        "C": {
+          "C1": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 7.0,
+            "mean": 10.124,
+            "p95": 30.0,
+            "maximum": 75
+          },
+          "C2": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 13.0,
+            "mean": 16.663,
+            "p95": 47.0,
+            "maximum": 92
+          },
+          "C3": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 16.318,
+            "p95": 45.0,
+            "maximum": 94
+          },
+          "C4": {
+            "minimum": 1,
+            "p05": 4.0,
+            "median": 19.0,
+            "mean": 22.715,
+            "p95": 54.0,
+            "maximum": 91
+          },
+          "C5": {
+            "minimum": 0,
+            "p05": 1.0,
+            "median": 12.0,
+            "mean": 16.453,
+            "p95": 46.0,
+            "maximum": 93
+          }
+        },
+        "D": {
+          "D1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 5.147,
+            "p95": 27.0,
+            "maximum": 79
+          },
+          "D2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 5.13,
+            "p95": 27.0,
+            "maximum": 83
+          },
+          "D3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 5.027,
+            "p95": 26.0,
+            "maximum": 89
+          },
+          "D4": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 0.0,
+            "mean": 5.074,
+            "p95": 26.0,
+            "maximum": 86
+          }
+        },
+        "E": {
+          "E1": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 12.616,
+            "p95": 43.0,
+            "maximum": 90
+          },
+          "E2": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 12.599,
+            "p95": 43.0,
+            "maximum": 95
+          },
+          "E3": {
+            "minimum": 0,
+            "p05": 0.0,
+            "median": 7.0,
+            "mean": 12.317,
+            "p95": 42.0,
+            "maximum": 93
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "automatic_pipeline_audit_v1",
+  "created_utc": "2026-10-06T22:29:05.201000+00:00",
+  "status": "passed",
+  "human_score_inputs_used": false,
+  "profiles_checked": 1,
+  "planned_runs_checked": 1,
+  "checks": [
+    "public/private option-catalogue equality",
+    "integer issue maxima sum to the fixed total",
+    "relevant issues remain active",
+    "issue and option ordinal relations are preserved",
+    "moderator starting deals maximize the sampled private utility",
+    "generated prompts round-trip through the negotiation parser",
+    "prepared run plan does not reference original human-score prompts",
+    "exactly one median-representative profile and one run are prepared",
+    "generation-stage source files do not reference the participant score CSV",
+    "balanced perturbation output contains a genuine positive-gain NBS and excludes participant scores",
+    "selected perturbation landscapes preserve the integer 100-point scoring rule"
+  ],
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "automatic_utility_generation_manifest_v1",
+  "created_utc": "2026-10-06T22:25:46.160304+00:00",
+  "method": "maximum-entropy constrained Monte Carlo followed by relation-preserving integer quantization",
+  "prior_file": "/content/drive/MyDrive/MicRisk_agents_SDK/Campy_case_Bayesian_acceptance_3/public_priors_Campylobacter.json",
+  "prior_sha256": "8b9ea2fe8c310e90e229932aa4bc2c15c4c96d3e1c630c2493b010dd8edb4ab1",
+  "human_score_tables_used": false,
+  "monte_carlo_samples_per_stakeholder": 20000,
+  "generated_profiles": 1,
+  "profile_selection": "valid draw nearest to componentwise medians",
+  "seed": 20260920,
+  "total_points": 100,
+  "acceptance_threshold": 65.0,
+  "profiles": [
+    {
+      "profile_id": "profile_median_representative",
+      "path": "utility_profiles/profile_median_representative.json",
+      "sha256": "acfc25f75e918ecb36d3bea2a4740ac43f67e079151cd69937f3e0d149019dcb"
+    }
+  ]
+}

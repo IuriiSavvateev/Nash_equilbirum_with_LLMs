@@ -1,0 +1,21 @@
+stakeholder,issue,original_weight,adapted_weight,change,profile
+Consumers,A,30,25,-5,participant_ir_rich_integer_monte_carlo
+Consumers,B,20,14,-6,participant_ir_rich_integer_monte_carlo
+Consumers,C,30,34,4,participant_ir_rich_integer_monte_carlo
+Consumers,D,10,10,0,participant_ir_rich_integer_monte_carlo
+Consumers,E,10,17,7,participant_ir_rich_integer_monte_carlo
+Food industry,A,30,26,-4,participant_ir_rich_integer_monte_carlo
+Food industry,B,10,7,-3,participant_ir_rich_integer_monte_carlo
+Food industry,C,30,38,8,participant_ir_rich_integer_monte_carlo
+Food industry,D,10,2,-8,participant_ir_rich_integer_monte_carlo
+Food industry,E,20,27,7,participant_ir_rich_integer_monte_carlo
+Food Safety Authorities,A,40,43,3,participant_ir_rich_integer_monte_carlo
+Food Safety Authorities,B,20,21,1,participant_ir_rich_integer_monte_carlo
+Food Safety Authorities,C,10,3,-7,participant_ir_rich_integer_monte_carlo
+Food Safety Authorities,D,20,30,10,participant_ir_rich_integer_monte_carlo
+Food Safety Authorities,E,10,3,-7,participant_ir_rich_integer_monte_carlo
+Environmental NGOs,A,20,14,-6,participant_ir_rich_integer_monte_carlo
+Environmental NGOs,B,40,48,8,participant_ir_rich_integer_monte_carlo
+Environmental NGOs,C,15,23,8,participant_ir_rich_integer_monte_carlo
+Environmental NGOs,D,0,0,0,participant_ir_rich_integer_monte_carlo
+Environmental NGOs,E,25,15,-10,participant_ir_rich_integer_monte_carlo

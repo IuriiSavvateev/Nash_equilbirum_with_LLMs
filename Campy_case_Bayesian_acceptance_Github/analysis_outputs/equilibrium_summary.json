@@ -1,0 +1,71 @@
+{
+  "schema": "campylobacter_equilibrium_characterization_v1",
+  "created_utc": "2026-10-05T00:06:55.604828+00:00",
+  "disagreement_baseline": 65.0,
+  "automatic_median_representative": {
+    "threshold": 65.0,
+    "stakeholders": [
+      "Consumers",
+      "Food industry",
+      "Food Safety Authorities",
+      "Environmental NGOs"
+    ],
+    "issues": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "package_count": 1200,
+    "individually_rational_package_count": 0,
+    "strictly_individually_rational_package_count": 0,
+    "equilibrium_exists_at_threshold": false,
+    "strict_positive_gain_equilibrium_exists": false,
+    "pareto_efficient_package_count": 42,
+    "benchmark_type": "maximin fallback (no individually rational package)",
+    "benchmark_package": "A3, B5, C1, D1, E1",
+    "benchmark_utilities": {
+      "Consumers": 58,
+      "Food industry": 60,
+      "Food Safety Authorities": 72,
+      "Environmental NGOs": 85
+    },
+    "benchmark_minimum_utility": 58,
+    "infeasibility_gap_to_65": 7.0,
+    "nash_product": null
+  },
+  "participant_scores": {
+    "threshold": 65.0,
+    "stakeholders": [
+      "Food Safety Authorities",
+      "Food industry",
+      "Consumers",
+      "Environmental NGOs"
+    ],
+    "issues": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "package_count": 1200,
+    "individually_rational_package_count": 0,
+    "strictly_individually_rational_package_count": 0,
+    "equilibrium_exists_at_threshold": false,
+    "strict_positive_gain_equilibrium_exists": false,
+    "pareto_efficient_package_count": 112,
+    "benchmark_type": "maximin fallback (no individually rational package)",
+    "benchmark_package": "A3, B3, C4, D2, E2",
+    "benchmark_utilities": {
+      "Food Safety Authorities": 55,
+      "Food industry": 60,
+      "Consumers": 70,
+      "Environmental NGOs": 60
+    },
+    "benchmark_minimum_utility": 55,
+    "infeasibility_gap_to_65": 10.0,
+    "nash_product": null
+  }
+}

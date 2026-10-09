@@ -1,0 +1,37 @@
+{
+  "schema": "participant_score_interval_coverage_v1",
+  "created_utc": "2026-10-05T00:06:57.576353+00:00",
+  "interval_definition": "empirical p05-p95 of step-5 automatic integer-score distribution",
+  "interpretation": "model-based central intervals, not population confidence intervals",
+  "post_hoc_only": true,
+  "participant_scores_used_to_generate_automatic_distribution": false,
+  "overall": {
+    "scores_checked": 84,
+    "inside_central_90_interval": 75,
+    "inside_central_90_fraction": 0.8929,
+    "inside_full_simulated_range": 84,
+    "inside_full_simulated_fraction": 1.0
+  },
+  "by_stakeholder": {
+    "Consumers": {
+      "scores_checked": 21,
+      "inside_central_90_interval": 19,
+      "inside_full_simulated_range": 21
+    },
+    "Food industry": {
+      "scores_checked": 21,
+      "inside_central_90_interval": 20,
+      "inside_full_simulated_range": 21
+    },
+    "Food Safety Authorities": {
+      "scores_checked": 21,
+      "inside_central_90_interval": 18,
+      "inside_full_simulated_range": 21
+    },
+    "Environmental NGOs": {
+      "scores_checked": 21,
+      "inside_central_90_interval": 18,
+      "inside_full_simulated_range": 21
+    }
+  }
+}

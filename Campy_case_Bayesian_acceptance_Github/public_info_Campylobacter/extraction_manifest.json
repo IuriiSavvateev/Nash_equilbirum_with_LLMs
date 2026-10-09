@@ -1,0 +1,13 @@
+{
+  "schema": "campylobacter_public_input_extraction_manifest_v1",
+  "created_utc": "2026-10-01T17:08:55.614663+00:00",
+  "issue_option_source": "public prefixes of all four supplied final prompts",
+  "discussion_source": "only Preliminary_discussion.json/conversation",
+  "private_scores_used": false,
+  "catalogue_match_across_all_prompts": true,
+  "outputs": {
+    "public_issue_catalogue.json": "10fbd1db4a64049955f47131315b989843262e8e31ad354b3990424c8aa061c9",
+    "General_Description_Campylobacter.txt": "e10c6c9dbb2f7077f128d881741b41ea5bf32cd9197446e73673ed6b84631d51",
+    "preliminary_discussion.json": "95c8a11e0879f6e214443187c2e8929f4dbf72f27a4223560af9495f7801e3e7"
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "schema": "automatic_private_utility_profile_v1",
+  "profile_id": "profile_median_representative",
+  "created_utc": "2026-10-06T22:25:46.149790+00:00",
+  "source_prior_sha256": "8b9ea2fe8c310e90e229932aa4bc2c15c4c96d3e1c630c2493b010dd8edb4ab1",
+  "selection_rule": "For each stakeholder, select the valid integer ensemble draw closest in mean absolute option-score distance to the componentwise medians; use squared distance and draw index as deterministic tie-breakers.",
+  "human_score_tables_used": false,
+  "total_points": 100,
+  "acceptance_threshold": 65.0,
+  "stakeholders": {
+    "Consumers": {
+      "stakeholder": "Consumers",
+      "source_draw_index": 5417,
+      "median_representative_selection": {
+        "criterion": "minimum mean absolute deviation to the componentwise option-score medians",
+        "tie_breakers": [
+          "minimum mean squared deviation",
+          "lowest source draw index"
+        ],
+        "mean_absolute_deviation": 4.47619,
+        "root_mean_squared_deviation": 10.937049,
+        "coordinatewise_medians": {
+          "A": {
+            "A1": 17.0,
+            "A2": 17.0,
+            "A3": 17.0,
+            "A4": 17.0
+          },
+          "B": {
+            "B1": 8.0,
+            "B2": 8.0,
+            "B3": 8.0,
+            "B4": 8.0,
+            "B5": 8.0
+          },
+          "C": {
+            "C1": 5.0,
+            "C2": 8.0,
+            "C3": 3.0,
+            "C4": 5.0,
+            "C5": 5.0
+          },
+          "D": {
+            "D1": 0.0,
+            "D2": 0.0,
+            "D3": 0.0,
+            "D4": 0.0
+          },
+          "E": {
+            "E1": 0.0,
+            "E2": 0.0,
+            "E3": 0.0
+          }
+        },
+        "valid_draw_preserved": true,
+        "reason_not_to_round_medians_independently": "Independent marginal rounding can violate the 100-point budget or strict public ordinal constraints."
+      },
+      "issue_weights": {
+        "A": 63,
+        "B": 24,
+        "C": 13,
+        "D": 0,
+        "E": 0
+      },
+      "utility_table": {
+        "A": {
+          "A1": 63,
+          "A2": 16,
+          "A3": 21,
+          "A4": 17
+        },
+        "B": {
+          "B1": 6,
+          "B2": 8,
+          "B3": 3,
+          "B4": 5,
+          "B5": 24
+        },
+        "C": {
+          "C1": 13,
+          "C2": 5,
+          "C3": 1,
+          "C4": 7,
+          "C5": 7
+        },
+        "D": {
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "D4": 0
+        },
+        "E": {
+          "E1": 0,
+          "E2": 0,
+          "E3": 0
+        }
+      },
+      "preferred_deal": {
+        "issue_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "maximizing_options_by_issue": {
+          "A": [
+            "A1"
+          ],
+          "B": [
+            "B5"
+          ],
+          "C": [
+            "C1"
+          ],
+          "D": [
+            "D1",
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "E": [
+            "E1",
+            "E2",
+            "E3"
+          ]
+        },
+        "canonical_starting_deal": "A1, B5, C1, D1, E1",
+        "tie_policy": "lexicographically first maximum within each issue"
+      },
+      "acceptance_threshold": 65.0
+    },
+    "Food industry": {
+      "stakeholder": "Food industry",
+      "source_draw_index": 1450,
+      "median_representative_selection": {
+        "criterion": "minimum mean absolute deviation to the componentwise option-score medians",
+        "tie_breakers": [
+          "minimum mean squared deviation",
+          "lowest source draw index"
+        ],
+        "mean_absolute_deviation": 4.142857,
+        "root_mean_squared_deviation": 6.513722,
+        "coordinatewise_medians": {
+          "A": {
+            "A1": 5.0,
+            "A2": 15.0,
+            "A3": 7.0,
+            "A4": 5.0
+          },
+          "B": {
+            "B1": 6.0,
+            "B2": 6.0,
+            "B3": 6.0,
+            "B4": 6.0,
+            "B5": 6.0
+          },
+          "C": {
+            "C1": 4.0,
+            "C2": 7.0,
+            "C3": 7.0,
+            "C4": 12.0,
+            "C5": 7.0
+          },
+          "D": {
+            "D1": 6.0,
+            "D2": 6.0,
+            "D3": 6.0,
+            "D4": 6.0
+          },
+          "E": {
+            "E1": 7.0,
+            "E2": 7.0,
+            "E3": 6.0
+          }
+        },
+        "valid_draw_preserved": true,
+        "reason_not_to_round_medians_independently": "Independent marginal rounding can violate the 100-point budget or strict public ordinal constraints."
+      },
+      "issue_weights": {
+        "A": 25,
+        "B": 16,
+        "C": 12,
+        "D": 24,
+        "E": 23
+      },
+      "utility_table": {
+        "A": {
+          "A1": 3,
+          "A2": 25,
+          "A3": 6,
+          "A4": 6
+        },
+        "B": {
+          "B1": 2,
+          "B2": 7,
+          "B3": 16,
+          "B4": 2,
+          "B5": 3
+        },
+        "C": {
+          "C1": 4,
+          "C2": 9,
+          "C3": 6,
+          "C4": 12,
+          "C5": 6
+        },
+        "D": {
+          "D1": 24,
+          "D2": 2,
+          "D3": 0,
+          "D4": 4
+        },
+        "E": {
+          "E1": 23,
+          "E2": 7,
+          "E3": 7
+        }
+      },
+      "preferred_deal": {
+        "issue_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "maximizing_options_by_issue": {
+          "A": [
+            "A2"
+          ],
+          "B": [
+            "B3"
+          ],
+          "C": [
+            "C4"
+          ],
+          "D": [
+            "D1"
+          ],
+          "E": [
+            "E1"
+          ]
+        },
+        "canonical_starting_deal": "A2, B3, C4, D1, E1",
+        "tie_policy": "lexicographically first maximum within each issue"
+      },
+      "acceptance_threshold": 65.0
+    },
+    "Food Safety Authorities": {
+      "stakeholder": "Food Safety Authorities",
+      "source_draw_index": 6406,
+      "median_representative_selection": {
+        "criterion": "minimum mean absolute deviation to the componentwise option-score medians",
+        "tie_breakers": [
+          "minimum mean squared deviation",
+          "lowest source draw index"
+        ],
+        "mean_absolute_deviation": 3.285714,
+        "root_mean_squared_deviation": 5.411628,
+        "coordinatewise_medians": {
+          "A": {
+            "A1": 9.0,
+            "A2": 12.0,
+            "A3": 25.0,
+            "A4": 9.0
+          },
+          "B": {
+            "B1": 5.0,
+            "B2": 5.0,
+            "B3": 14.0,
+            "B4": 7.0,
+            "B5": 7.0
+          },
+          "C": {
+            "C1": 2.0,
+            "C2": 4.0,
+            "C3": 4.0,
+            "C4": 6.0,
+            "C5": 4.0
+          },
+          "D": {
+            "D1": 6.0,
+            "D2": 6.0,
+            "D3": 6.0,
+            "D4": 6.0
+          },
+          "E": {
+            "E1": 6.0,
+            "E2": 6.0,
+            "E3": 6.0
+          }
+        },
+        "valid_draw_preserved": true,
+        "reason_not_to_round_medians_independently": "Independent marginal rounding can violate the 100-point budget or strict public ordinal constraints."
+      },
+      "issue_weights": {
+        "A": 44,
+        "B": 15,
+        "C": 11,
+        "D": 15,
+        "E": 15
+      },
+      "utility_table": {
+        "A": {
+          "A1": 9,
+          "A2": 10,
+          "A3": 44,
+          "A4": 7
+        },
+        "B": {
+          "B1": 8,
+          "B2": 3,
+          "B3": 15,
+          "B4": 6,
+          "B5": 3
+        },
+        "C": {
+          "C1": 6,
+          "C2": 5,
+          "C3": 5,
+          "C4": 11,
+          "C5": 4
+        },
+        "D": {
+          "D1": 4,
+          "D2": 15,
+          "D3": 5,
+          "D4": 6
+        },
+        "E": {
+          "E1": 15,
+          "E2": 4,
+          "E3": 5
+        }
+      },
+      "preferred_deal": {
+        "issue_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "maximizing_options_by_issue": {
+          "A": [
+            "A3"
+          ],
+          "B": [
+            "B3"
+          ],
+          "C": [
+            "C4"
+          ],
+          "D": [
+            "D2"
+          ],
+          "E": [
+            "E1"
+          ]
+        },
+        "canonical_starting_deal": "A3, B3, C4, D2, E1",
+        "tie_policy": "lexicographically first maximum within each issue"
+      },
+      "acceptance_threshold": 65.0
+    },
+    "Environmental NGOs": {
+      "stakeholder": "Environmental NGOs",
+      "source_draw_index": 4612,
+      "median_representative_selection": {
+        "criterion": "minimum mean absolute deviation to the componentwise option-score medians",
+        "tie_breakers": [
+          "minimum mean squared deviation",
+          "lowest source draw index"
+        ],
+        "mean_absolute_deviation": 4.095238,
+        "root_mean_squared_deviation": 9.029054,
+        "coordinatewise_medians": {
+          "A": {
+            "A1": 3.0,
+            "A2": 3.0,
+            "A3": 5.0,
+            "A4": 2.0
+          },
+          "B": {
+            "B1": 12.0,
+            "B2": 12.0,
+            "B3": 12.0,
+            "B4": 12.0,
+            "B5": 12.0
+          },
+          "C": {
+            "C1": 7.0,
+            "C2": 13.0,
+            "C3": 12.0,
+            "C4": 19.0,
+            "C5": 12.0
+          },
+          "D": {
+            "D1": 0.0,
+            "D2": 0.0,
+            "D3": 0.0,
+            "D4": 0.0
+          },
+          "E": {
+            "E1": 7.0,
+            "E2": 7.0,
+            "E3": 7.0
+          }
+        },
+        "valid_draw_preserved": true,
+        "reason_not_to_round_medians_independently": "Independent marginal rounding can violate the 100-point budget or strict public ordinal constraints."
+      },
+      "issue_weights": {
+        "A": 13,
+        "B": 50,
+        "C": 26,
+        "D": 0,
+        "E": 11
+      },
+      "utility_table": {
+        "A": {
+          "A1": 1,
+          "A2": 3,
+          "A3": 13,
+          "A4": 0
+        },
+        "B": {
+          "B1": 12,
+          "B2": 7,
+          "B3": 8,
+          "B4": 4,
+          "B5": 50
+        },
+        "C": {
+          "C1": 11,
+          "C2": 16,
+          "C3": 12,
+          "C4": 26,
+          "C5": 12
+        },
+        "D": {
+          "D1": 0,
+          "D2": 0,
+          "D3": 0,
+          "D4": 0
+        },
+        "E": {
+          "E1": 11,
+          "E2": 7,
+          "E3": 8
+        }
+      },
+      "preferred_deal": {
+        "issue_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "maximizing_options_by_issue": {
+          "A": [
+            "A3"
+          ],
+          "B": [
+            "B5"
+          ],
+          "C": [
+            "C4"
+          ],
+          "D": [
+            "D1",
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "E": [
+            "E1"
+          ]
+        },
+        "canonical_starting_deal": "A3, B5, C4, D1, E1",
+        "tie_policy": "lexicographically first maximum within each issue"
+      },
+      "acceptance_threshold": 65.0
+    }
+  }
+}

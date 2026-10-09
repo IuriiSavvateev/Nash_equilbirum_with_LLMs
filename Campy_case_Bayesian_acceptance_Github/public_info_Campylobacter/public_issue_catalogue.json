@@ -1,0 +1,131 @@
+{
+  "schema": "campylobacter_public_issue_catalogue_v1",
+  "created_utc": "2026-10-01T17:08:55.610254+00:00",
+  "source_prompt_files": [
+    "Consumers.txt",
+    "Food_Industry.txt",
+    "FSA.txt",
+    "NGOs.txt"
+  ],
+  "source_prompt_sha256": {
+    "Consumers.txt": "0a5a75274c74c8c29943a6ce358c85107ca3731ff81237a69fc764e92e14854e",
+    "Food_Industry.txt": "90bf0e43d086604018994dec709d7c7278733bb8ff1434c5d025b99efcdbb4d9",
+    "FSA.txt": "e285a949b4bb4e970203ceb23bd0993f6fed7f5ff529f033e492afeb5fb3ae62",
+    "NGOs.txt": "a53db59163ee22735ef98e1b326c833a0fd8a38a9608cc8b7734cccc8723d86c"
+  },
+  "cross_prompt_catalogue_match": true,
+  "extraction_boundary": "Your confidential information and preferences:",
+  "private_prompt_suffix_parsed": false,
+  "private_scores_included": false,
+  "issues": {
+    "A": {
+      "title": "Type and Stringency of Campylobacter Microbiological Criterion (PHC vs. FSC)",
+      "options": {
+        "A1": {
+          "title": "Status quo PHC",
+          "description": "Maintain the existing PHC only (no FSC). Continue relying on process controls and corrective actions without imposing batch-based market prohibitions."
+        },
+        "A2": {
+          "title": "Phased FSC (lenient limit)",
+          "description": "Introduce an FSC with a relatively high limit and c>0 acceptance, phased in gradually with risk-based sampling. This would ease adaptation for SMEs and reduce waste."
+        },
+        "A3": {
+          "title": "Risk-based FSC (moderate limit)",
+          "description": "Establish an FSC aligned to public health targets, with mandatory batch actions when limits are exceeded. Apply risk-based sampling frequency and implement targeted waste mitigation measures."
+        },
+        "A4": {
+          "title": "Strict FSC (low limit & immediate enforcement)",
+          "description": "Adopt a stringent FSC with a low limit and immediate withdrawal or recall of non-compliant batches to maximize public health protection."
+        }
+      }
+    },
+    "B": {
+      "title": "Primary control focus along the supply chain",
+      "options": {
+        "B1": {
+          "title": "Processing & Retail Focus",
+          "description": "Concentrate efforts on enhancing hygiene practices and implementing advanced decontamination technologies at processing facilities, while also improving retail standards and transparency to ensure product safety. This approach aims to reduce contamination in the supply chain and provide consumers with clear information on poultry safety, without focusing primarily on on-farm interventions."
+        },
+        "B2": {
+          "title": "Process-first",
+          "description": "Prioritize slaughterhouse and processing controls, including decontamination technologies, as the main points for risk reduction."
+        },
+        "B3": {
+          "title": "Balanced multi-hurdle",
+          "description": "Distribute control measures and investment evenly across the farm, processing, retail, and consumer stages."
+        },
+        "B4": {
+          "title": "Consumer & transparency focus",
+          "description": "Center efforts on labeling, behavior change, and transparency initiatives to reduce household-level contamination risks."
+        },
+        "B5": {
+          "title": "Environment-first",
+          "description": "Emphasize control of environmental leakage (e.g., runoff, vectors, VBNC survival) and enforce tighter environmental safeguards."
+        }
+      }
+    },
+    "C": {
+      "title": "Cost burden sharing and food-waste mitigation mechanisms",
+      "options": {
+        "C1": {
+          "title": "Producer liability",
+          "description": "Industry bears full compliance and non-compliance costs. Failed batches follow standard disposal routes without subsidies. Additional costs cannot be passed to the consumer"
+        },
+        "C2": {
+          "title": "Targeted public co-funding",
+          "description": "Provide temporary public financial support (subsidies or tax credits) for validated control measures and SME adaptation, to prevent consumer price increases."
+        },
+        "C3": {
+          "title": "Regulated pass-through with transparency",
+          "description": "Permit cost pass-through to consumers, conditional on transparent reporting and performance benchmarking by retailers. There will be no subsidies or tax credits"
+        },
+        "C4": {
+          "title": "Waste-minimization toolkit",
+          "description": "Fund innovations such as dynamic shelf-life management, reprocessing or valorization options, and case-by-case batch risk assessment to reduce avoidable waste."
+        },
+        "C5": {
+          "title": "Balanced cost-sharing compact",
+          "description": "Combine producer obligations with capped public support and retailer co-investment, tied to measurable public health outcomes."
+        }
+      }
+    },
+    "D": {
+      "title": "Implementation scope: uniform EU rule vs tailored, risk-based flexibility",
+      "options": {
+        "D1": {
+          "title": "Uniform EU standard",
+          "description": "Apply one EU-wide threshold and sampling plan, with minimal derogations, for simplicity and fairness."
+        },
+        "D2": {
+          "title": "Harmonized baseline with upward flexibility",
+          "description": "Define a common minimum baseline for PHC/FSC, allowing Member States or retailers to implement stricter measures if desired."
+        },
+        "D3": {
+          "title": "Risk-tailored application",
+          "description": "Adapt criteria and sampling based on regional risk, flock characteristics, or processor capacity. Allow case-by-case adjustments and SME relief mechanisms."
+        },
+        "D4": {
+          "title": "Voluntary adoption & transparency",
+          "description": "Avoid binding EU-wide rules; instead, rely on voluntary schemes supported by mandatory public reporting to enable consumer-driven accountability."
+        }
+      }
+    },
+    "E": {
+      "title": "Implementation scope: Environmental foodprint of a new foodsafety criteria",
+      "options": {
+        "E1": {
+          "title": "Do not intervene",
+          "description": "Click to edit option description"
+        },
+        "E2": {
+          "title": "Intervene with the guideline to reach CO2 equivalent",
+          "description": "Click to edit option description"
+        },
+        "E3": {
+          "title": "Intervene with the legally binding text to reach CO2 equivalent",
+          "description": "Click to edit option description"
+        }
+      }
+    }
+  }
+}
