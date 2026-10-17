@@ -1,6 +1,6 @@
 # Nash bargaining with LLM agents — *Campylobacter* case
 
-Code, data and LLM negotiation runs for the paper *[title and reference to be added]*.
+Code, data and LLM negotiation runs for the paper [Fetsch et al. (2025), "Tackling One Health Risks: How Large Language Models are leveraged for Risk Negotiation and Consensus-building"](https://arxiv.org/abs/2509.09906)
 
 The pipeline turns plain-text stakeholder statements into a game-theoretic negotiation:
 
@@ -146,4 +146,4 @@ OpenAI API (Structured Outputs), OpenAI Agents SDK, Pydantic, LangSmith (optiona
 
 ## License and citation
 
-GNU GPL v3.0 (see `LICENSE`). Please cite: *[paper reference to be added]*.
+GNU GPL v3.0 (see `LICENSE`). Please cite: [Fetsch et al. (2025), "Tackling One Health Risks: How Large Language Models are leveraged for Risk Negotiation and Consensus-building"](https://arxiv.org/abs/2509.09906).
